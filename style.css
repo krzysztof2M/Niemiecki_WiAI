@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+div{
+    font-family: georgia;
+    font-size: 17.5px;
+}
+
+#naglowek{
+    background-color: #6a0180;
+    padding: 10px;
+    width: 100%;
+    font-size: 10.5px;
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+}
+
+#stopka{
+    background-color: #6a0180;
+    color: white; 
+    padding: 10px; 
+    position: fixed; 
+    width: 100%; 
+    bottom: 0;
+    font-size: 17px;
+}
+
+#glowne {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+
+.zdjtxt {
+    display: flex; 
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+img.str {
+    width: 45%; 
+    height: 3000px ;
+    margin-left: 30px; 
+}
+
+img.obrazy{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 45%;
+}
+
+button{
+    background-color: rgb(182, 20, 174);
+    font-size: 17.5px;
+    font-weight: bold;
+    padding: 6px;
+    border: 2px solid black;
+    border-radius: 13px;
+    text-align: center;
+    margin-right: 3px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    width: 150px;
+}
+
+button:hover{
+    background-color: rgba(255, 94, 247, 1);
+
+}
+
+li.du{
+margin-bottom: 240px;
+}
+
+li.du2{
+    margin-bottom: 190px;
+    }
